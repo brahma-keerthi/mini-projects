@@ -1,3 +1,5 @@
+# TIC-TAC-TOE
+
 def reset():
     return {1 : " ", 2 : " ", 3 : " ",
          4 : " ", 5 : " ", 6 : " ",
@@ -16,6 +18,7 @@ def game(board):
     count = 1
     printBoard(board)
     while True:
+        print("1.Top-Left\n2.Top-Center\n3.Top-Right\n4.Center-Left\n5.Center-Center\n6.Center-Right\n7.Bottom-Left\n8.Bottom-Center\n9.Bottom-Right\n")
         if count%2 == 1 :
             turn = "X"
         elif count%2 == 0:
